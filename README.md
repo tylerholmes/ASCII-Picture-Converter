@@ -8,11 +8,13 @@ To install on command line do:
 ```python
 wget https://github.com/tylerholmes/ASCII-Picture-Converter/blob/main/ascii.py
 ```
+Ensure you have python3 as well as Python Image Library (PIL) downloaded, if not download python3 from https://www.python.org/downloads/
+and PIL from https://pillow.readthedocs.io/en/stable/installation.html. 
 
 
 ## Usage
 
-To use simply run the ascii.py file either in your IDE or on the command line using ```python3 ascii.py``` and type in the path name of
+First, ensure you have python3 and pillow To use simply run the ascii.py file either in your IDE or on the command line using ```python3 ascii.py``` and type in the path name of
 the picture you would like to convert to ascii. On lines 5 and 8 of the ascii.py file there 
 are two sets of ascii characters to use 12 or 70 characters simply remove or add a `#` to 
 change the amount of ascii characters you would like to use. Personally 12 characters worked
