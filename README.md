@@ -14,11 +14,7 @@ and PIL from https://pillow.readthedocs.io/en/stable/installation.html.
 
 ## Usage
 
-First, ensure you have python3 and pillow To use simply run the ascii.py file either in your IDE or on the command line using ```python3 ascii.py``` and type in the path name of
-the picture you would like to convert to ascii. On lines 5 and 8 of the ascii.py file there 
-are two sets of ascii characters to use 12 or 70 characters simply remove or add a `#` to 
-change the amount of ascii characters you would like to use. Personally 12 characters worked
-better and you are able to see the picture more clearly.
+First, ensure you have python3 and pillow To use simply run the ascii.py file either in your IDE or on the command line using ```python3 ascii.py``` and type in the path name of the picture you would like to convert to ascii. On lines 5 and 8 there are two initializations of the ascii_chars variable, the first one is using only 12 ascii characters while the second one on line 8 uses 70 ascii characters. By defauilt it is set to 12 ascii characters as it provides a more clear image, but to change it simply add a `#` at the beginning of line 5 and remove the `#` at the beginning of line 8 and run the program. Once you run the program it will create a text file named `ascii_image.txt`. Open this file to view your ascii image, you may need to zoom out to view the image using either `ctl + -` or `command + -`.
 
 ## Contributing
 Pull requests are welcome.
