@@ -4,7 +4,10 @@ Foobar is a Python library for dealing with word pluralization.
 
 ## Installation
 
-To install on command line do ```wget https://github.com/tylerholmes/ASCII-Picture-Converter/blob/main/ascii.py```
+To install on command line do 
+```python
+wget https://github.com/tylerholmes/ASCII-Picture-Converter/blob/main/ascii.py
+```
 
 ## Usage
 
