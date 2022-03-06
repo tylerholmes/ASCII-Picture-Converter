@@ -1,6 +1,6 @@
 # ASCII-Picture-Converter
 
-Foobar is a Python library for dealing with word pluralization.
+A python application to convert regular images into ASCII text images.
 
 ## Installation
 
